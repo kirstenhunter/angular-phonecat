@@ -10,4 +10,4 @@ RUN curl -L https://npmjs.org/install.sh | sh
 RUN npm install
 RUN npm update
 RUN npm install -g bower
-RUN bower install
+RUN bower install --allow-root
