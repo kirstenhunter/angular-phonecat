@@ -7,3 +7,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q curl python-all wget vi
 ADD . /opt/angular
 WORKDIR /opt/angular
 RUN curl -L https://npmjs.org/install.sh | sh
+npm install
