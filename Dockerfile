@@ -13,5 +13,3 @@ RUN npm install
 RUN npm update
 RUN npm install -g bower
 RUN bower install --allow-root
-RUN npm install -g protractor
-RUN npm install -g update-webdriver
